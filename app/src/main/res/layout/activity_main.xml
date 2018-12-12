@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Threshold!"
+        android:layout_marginBottom="0dp"
+        android:layout_below="@+id/stepView"
+        android:id="@+id/tvThreshold"
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/thresholdView"
+        android:layout_marginBottom="40px"
+        />
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Number of Steps: 0"
+        android:textSize="32dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Pedometer"
+        android:background="#1E90FF"
+        android:layout_marginBottom="5px"
+        />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Pedometer"
+        android:background="#FF0000"
+        />
+
+</LinearLayout>

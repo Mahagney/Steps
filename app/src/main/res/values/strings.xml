@@ -1,3 +1,4 @@
 <resources>
+    <string name="hint">We recommend you to set the threshold to 20 if you keep the phone in your hand or to 35 if you keep it in your pocket.</string>
     <string name="app_name">Steps2</string>
 </resources>
